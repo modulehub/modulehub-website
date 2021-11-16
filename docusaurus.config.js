@@ -43,10 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        id: 'support_us',
+        id: 'beta',
         content:
           'We are in open beta! <a target="_blank" rel="noopener noreferrer" href="https://app.modulehub.io/">Start now</a>',
-        backgroundColor: '#ffba00',
         textColor: '#091E42',
         isCloseable: true,
       },
