@@ -79,15 +79,24 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Alternative to',
+            items: [
+              {
+                label: 'Terraform Cloud',
+                to: '/alternative-to-terraform-cloud',
+              },
+            ],
+          },
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
           // {
           //   title: 'Community',
           //   items: [
