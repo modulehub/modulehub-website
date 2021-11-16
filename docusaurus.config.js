@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ModuleHub',
-  tagline: 'Turn your git repositories into modules',
+  tagline: 'Turn your Github repositories into Terraform modules. Get Terraform remote state without any hassle.',
   url: 'https://www.modulehub.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
