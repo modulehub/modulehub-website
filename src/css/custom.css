@@ -6,14 +6,16 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-navbar-link-hover-color: #ffffff;
   --ifm-color-primary: #1f6fff;
   --ifm-navbar-background-color: #1f6fff;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #1f6fff;
+  --ifm-color-primary-dark: #025dff;
+  --ifm-color-primary-darker: #0057f3;
+  --ifm-color-primary-darkest: #0048c8;
+  --ifm-color-primary-light: #3c81ff;
+  --ifm-color-primary-lighter: #4a8bff;
+  --ifm-color-primary-lightest: #75a6ff;
   --ifm-code-font-size: 95%;
 }
 

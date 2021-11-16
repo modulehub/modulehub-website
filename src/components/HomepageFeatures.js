@@ -31,7 +31,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Secure remote Terraform state backend regardless of cloud provider. Sync to any backend. Seriously.
+        Secure remote Terraform state backend regardless of cloud provider. Seriously.
       </>
     )
   },
