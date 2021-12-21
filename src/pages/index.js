@@ -1,3 +1,4 @@
+import HomepageFeatureGetStarted from '../components/HomepageFeatureGetStarted';
 import HomepageFeatures from '../components/HomepageFeatures';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -13,13 +14,13 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/* <div className={styles.buttons}>
+        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://app.modulehub.io/">
+            Get Started - 5min ⏱️
           </Link>
-        </div> */}
+        </div>
       </div>
     </header>
   );
@@ -33,6 +34,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+        {/* <HomepageFeatureGetStarted /> */}
         <HomepageFeatures />
       </main>
     </Layout>
