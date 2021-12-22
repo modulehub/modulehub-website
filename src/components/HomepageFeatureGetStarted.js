@@ -1,42 +1,57 @@
+import Link from '@docusaurus/Link';
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Command line',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'UI',
+    src: require('../../static/img/ui-state-create.gif').default,
     description: (
       <>
         Just connect your organization and start serving modules in no time. <br/>
-        <pre>
-        <code>
-          curl -fsSL https://raw.githubusercontent.com/modulehub/mh/master/scripts/install.sh | sh
-        </code>
-        </pre>
       </>
     ),
+    link: (
+      <>
+        <Link
+            className="button button--primary button--lg"
+            to="https://app.modulehub.io/">
+            Get Started
+          </Link>
+      </>
+    )
   },
   {
-    title: 'App UI',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'CLI',
+    src: require('../../static/img/cli-states-create-list.gif').default,
     description: (
       <>
         Login and create your first state.
+      </>
+    ),
+    link: (
+      <>
+        <Link
+            className="button button--primary button--lg"
+            to="/docs/command-line/quickstart">
+            Get Started
+          </Link>
       </>
     )
   },
 ];
 
-function Feature({Svg, title, description, code}) {
+function Feature({src, title, description, link}) {
   return (
     <div className={clsx('col col--6')}>
-      {/* <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div> */}
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
+        <div className="text--center">
+          <img src={src} alt={title} />
+        </div>
         <p>{description}</p>
+        {link}
       </div>
     </div>
   );
