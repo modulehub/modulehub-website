@@ -4,16 +4,11 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Quick setup',
+    title: 'Control your cloud bill',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Just connect your organization and start serving modules in no time.
-      </>
-    ),
-    code: (
-      <>
-      docker run
+        Control how much you spend on your cloud bill.
       </>
     )
   },
@@ -32,6 +27,38 @@ const FeatureList = [
     description: (
       <>
         Secure remote Terraform state backend regardless of cloud provider. Seriously.
+      </>
+    )
+  },
+  {
+    title: 'Helm chart registry',
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Share your charts securely between your projects.
+      </>
+    ),
+    code: (
+      <>
+      docker run
+      </>
+    )
+  },
+  {
+    title: 'Your code, your process',
+    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Share your quality modules securely. Know what you're deploying and react.
+      </>
+    )
+  },
+  {
+    title: 'Maximise developer experience',
+    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Use modulehub CLI and optimize the time for project setup or local development.
       </>
     )
   },

@@ -56,11 +56,11 @@ const config = {
           src: 'img/logo-mh-white.svg',
         },
         items: [
-          {
-            href: 'https://app.modulehub.io/modules',
-            label: 'Browse Modules',
-            position: 'left',
-          },
+          // {
+          //   href: 'https://app.modulehub.io/modules',
+          //   label: 'Browse Modules',
+          //   position: 'left',
+          // },
           {
             type: 'doc',
             docId: 'intro',
